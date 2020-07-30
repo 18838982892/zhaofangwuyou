@@ -1,0 +1,254 @@
+.lun img {
+  width: 100%;
+}
+.sky {
+  padding: 2.5rem 2rem 2.5rem;
+}
+.sky div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sky div .cor {
+  padding: 1rem 0rem;
+  font-size: 1.4rem;
+}
+.sky div .cor span {
+  color: red;
+  font-size: 1.4rem;
+}
+.sky div .phone {
+  width: 1.3rem;
+  height: 2rem;
+  background: url('../image/SecondHandList/phone.png') no-repeat center;
+  background-size: 80%;
+}
+.sky p:nth-child(3) {
+  color: gray;
+  margin-bottom: 2rem;
+}
+.sky p:nth-child(4) span {
+  background-color: #DEE9F0;
+  padding: 1rem;
+  color: #84AFD0;
+}
+.shadow {
+  height: 1.4rem;
+  background-color: #F5F5F5;
+}
+.huxing {
+  padding: 2rem;
+}
+.huxing li {
+  border-bottom: 0.1rem solid gray;
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  font-weight: bolder;
+}
+.huxing li span {
+  display: inline-block;
+  width: 13rem;
+}
+.huxing div {
+  text-align: center;
+  font-size: 1.3rem;
+  color: gray;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+.txt {
+  padding: 2rem;
+}
+.txt h2 {
+  color: #FF9326;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid gray;
+}
+.txt p {
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid gray;
+}
+.txt div {
+  text-align: center;
+  font-size: 1.3rem;
+  color: gray;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+.room {
+  padding: 2rem;
+}
+.room .tit {
+  color: #FF9326;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid gray;
+}
+.room .buju {
+  padding-top: 2rem;
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #ff8a00;
+}
+.room .le {
+  width: 7rem;
+  margin-right: 1rem;
+}
+.room .le img {
+  width: 100%;
+}
+.room .ri p:nth-child(2) {
+  margin: 1rem 0rem;
+  font-weight: bolder;
+}
+.room .ri p:nth-child(3) span {
+  padding: 0.5rem;
+  background-color: #F4F7F9;
+  color: #849aae;
+}
+.room div:nth-child(3) {
+  border-bottom: none;
+}
+.scholl {
+  padding: 2rem;
+}
+.scholl li {
+  border-bottom: 0.1rem solid gray;
+  padding: 2rem 0rem;
+}
+.scholl li span:nth-child(1) {
+  color: gray;
+}
+.scholl li span:nth-child(2) {
+  font-weight: bolder;
+}
+.scholl li:nth-child(1) {
+  padding: 0rem;
+}
+.scholl h1 {
+  padding-bottom: 1rem;
+}
+.scholl div {
+  text-align: center;
+  font-size: 1.3rem;
+  color: gray;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+.distance {
+  padding: 2rem;
+}
+.distance h1 {
+  border-bottom: 0.1rem solid gray;
+  padding-bottom: 1rem;
+}
+.distance div {
+  padding-top: 2rem;
+  height: 20rem;
+}
+.tui {
+  height: 5rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding: 1.7rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid gray;
+}
+.home2 {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.home2 .end {
+  text-align: center;
+  font-size: 1.3rem;
+  color: gray;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+.liyou {
+  position: absolute;
+  right: 0;
+  bottom: 59%;
+  width: 29rem;
+  height: 3.5rem;
+  background-color: #F2F2F2;
+  line-height: 3.5rem;
+  padding-left: 1rem;
+}
+.liyou2 {
+  position: absolute;
+  right: 0;
+  bottom: 18%;
+  width: 29rem;
+  height: 3.5rem;
+  background-color: #F2F2F2;
+  line-height: 3.5rem;
+  padding-left: 1rem;
+}
+.home2 > li {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid gray;
+}
+.home2 > li img {
+  width: 8rem;
+}
+.home2 > li div h2 {
+  width: 18rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home2 > li .home2_bott {
+  display: flex;
+  justify-content: space-between;
+}
+.home2 > li .home2_bott .home2_le p:nth-child(2) {
+  color: gray;
+  margin: 1rem 0rem;
+}
+.home2 > li .home2_bott .home2_le p:nth-child(3) span {
+  color: skyblue;
+  padding: 0.2rem;
+  background-color: #F4F7F9;
+}
+.home2 > li .home2_bott .home2_rig p {
+  text-align: right;
+}
+.home2 > li .home2_bott .home2_rig p:nth-child(1) {
+  color: #FF8A00;
+  font-weight: bolder;
+}
+.home2 > li .home2_bott .home2_rig p:nth-child(2) {
+  margin: 1rem 0rem;
+}
+.touxiang {
+  height: 5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.touxiang .lef {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  width: 20rem;
+  height: 4rem;
+  line-height: 4rem;
+  background: url('../image/SecondHandList/user.png') no-repeat 3rem 0.5rem;
+  background-size: 15%;
+  background-color: #ff8a00;
+}
+.touxiang .rig {
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.3rem;
+  width: 8rem;
+  height: 4rem;
+  background: url('../image/SecondHandList/xin.png') no-repeat 0rem 0.7rem;
+  background-size: 30%;
+}

@@ -1,0 +1,79 @@
+.top {
+  position: relative;
+  height: 19rem;
+  background: url('../image/my/bg1.png') no-repeat center;
+  background-size: cover;
+}
+.top .tubiao {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.top .tubiao p {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.top .user {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top .sin {
+  width: 6.5rem;
+  height: 3rem;
+  border: 0.1rem solid white;
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  line-height: 3rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.shadow {
+  height: 1rem;
+  background-color: #F5F5F5;
+}
+.foot {
+  padding: 2rem 2rem 0rem 2rem;
+}
+.foot li {
+  position: relative;
+  font-size: 1.3rem;
+  padding: 1.7rem 0rem 1.7rem 2rem;
+  border-bottom: 0.1rem solid gray;
+}
+.foot li img {
+  width: 3%;
+  position: absolute;
+  right: 0;
+  top: 1.6rem;
+}
+.foot li:nth-child(1) {
+  background: url('../image/my/icon1.png') no-repeat 0rem 1rem;
+  background-size: 8%;
+}
+.foot li:nth-child(2) {
+  background: url('../image/my/icon2.png') no-repeat 0rem 1rem;
+  background-size: 8%;
+}
+.foot li:nth-child(3) {
+  background: url('../image/my/icon3.png') no-repeat 0rem 1rem;
+  background-size: 8%;
+}
+.foot li:nth-child(4) {
+  background: url('../image/my/icon4.png') no-repeat 0rem 1rem;
+  background-size: 8%;
+  border-bottom: none;
+}
+.bg {
+  height: 30rem;
+  background-color: #F5F5F5;
+}

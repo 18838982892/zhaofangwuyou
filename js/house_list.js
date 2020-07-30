@@ -1,0 +1,32 @@
+touch.on($("#quyu"),"tap",function(){
+    $(".dd").removeClass("up");
+    $(".quyu").addClass("up");
+    $(".ye").css("color","black")
+    $(this).css("color","#FF8800");
+    $(".hidden").css('display','none')
+    $(".hidden1").css("display","block");
+});
+touch.on($("#price"),"tap",function(){
+    $(".dd").removeClass("up");
+    $(".price").addClass("up");
+    $(".ye").css("color","black")
+    $(this).css("color","#FF8800");
+    $(".hidden").css('display','none')
+    $(".hidden3").css("display","block");
+})
+touch.on($("#house_room"),"tap",function(){
+    $(".dd").removeClass("up");
+    $(".house_room").addClass("up");
+    $(".ye").css("color","black")
+    $(this).css("color","#FF8800");
+    $(".hidden").css('display','none')
+    $(".hidden2").css("display","block");
+})
+touch.on($("#more"),"tap",function(){
+    $(".dd").removeClass("up");
+    $(".more").addClass("up");
+    $(".ye").css("color","black")
+    $(this).css("color","#FF8800");
+    $(".hidden").css('display','none')
+    $(".hidden4").css("display","block");
+})
